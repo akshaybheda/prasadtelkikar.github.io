@@ -1,0 +1,50 @@
+#particles-js{
+	background:black;
+}
+html, body{
+	height:100%;
+	margin:0;
+	font: normal 16px Arial, Helvetica, sand-serif;
+}
+
+#login{
+	background:#fff;
+	opacity:1;
+	padding: 1.5em;
+	border:#ccc 2px solid;
+	position:absolute;
+	top:10%;
+	left:35%;
+	width:22%;
+}
+#name{
+	font: bold 25px Arial, Helvetica, sand-serif;
+    display: block;
+    text-align: center;
+	padding:10px;
+}
+
+#desg{
+	font: normal 17px Arial, Helvetica, sand-serif;
+    display: block;
+    text-align: center;
+	padding:10px;
+	opacity:0.8;
+}
+
+#inet{
+	padding: 15px;
+	display:inline-block;
+}
+#login input[type="text"], #login input[type="password"]{
+	padding:7px;
+	margin-bottom:10px;
+	border: 1px #ccc solid;
+}
+
+img{
+	border-radius:50%;
+	height:50%;
+	width:100%;
+	
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta changeset="UTF-8">
+	<meta name="viewport" content="width=device-height" initial-scale=1.0>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Prasad Telkikar</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id = "particles-js">
+		<div id="login">
+			<form>
+				<div>
+					<img src="prasad.png" alt="" />
+					<br>
+					<label id="name">Prasad L. Telkikar</label>
+					<label id="desg">Learning full stack development </label>
+					<p>
+					<input id="inet" type="image" src="linkedIn.png" alt="Submit" width="30" height="30" onclick = "redirectLinkedIn();"/>
+					<input id="inet" type="image" src="github.png" alt="Submit" width="35" height="35" onclick = "redirectGitHub();"/>
+					<input id="inet" type="image" src="hackerrank.png" alt="Submit" width="35" height="35" onclick = "redirectHackerRank();"/>
+					<input id="inet" type="image" src="stackoverflow.png" alt="Submit" width="35" height="35" onclick = "redirectStackoverflow();"/>
+					<input id="inet" type="image" src="wordpress.png" alt="Submit" width="35" height="35" onclick = "redirectWordpress();"/>
+					<input id="inet" type="image" src="quora.png" alt="Submit" width="35" height="35" onclick = "redirectQuora();"/>
+					</p>
+				</div>
+		</form>
+		
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+	<script>
+		particlesJS.load('particles-js',
+		'particles.json', function(){
+			console.log("Particles.json loaded....");
+		});
+	</script>
+	<script type="text/javascript">
+		function redirectLinkedIn(){
+		//debugger;
+		var win = window.open("https://www.linkedin.com/in/prasad-telkikar/");
+			if(win){
+				win.focus();
+			}
+			else{
+				alert("Not accessible");
+			}
+		}		
+		function redirectGitHub(){
+		//debugger;
+		var win = window.open("https://github.com/prasadtelkikar/");
+			if(win){
+				win.focus();
+			}
+			else{
+				alert("Not accessible");
+			}
+		}
+		function redirectHackerRank(){
+		//debugger;
+		var win = window.open("https://www.hackerrank.com/telkikar_prasad");
+			if(win){
+				win.focus();
+			}
+			else{
+				alert("Not accessible");
+			}
+		}
+		function redirectStackoverflow(){
+		//debugger;
+		var win = window.open("https://stackoverflow.com/users/6299857/prasad-telkikar?tab=profile");
+			if(win){
+				win.focus();
+			}
+			else{
+				alert("Not accessible");
+			}
+		}
+		function redirectWordpress(){
+		//debugger;
+		var win = window.open("https://prasadtelkikar.wordpress.com");
+			if(win){
+				win.focus();
+			}
+			else{
+				alert("Not accessible");
+			}
+		}
+		
+		function redirectQuora(){
+		//debugger;
+		var win = window.open("https://www.quora.com/profile/Prasad-Telkikar");
+			if(win){
+				win.focus();
+			}
+			else{
+				alert("Not accessible");
+			}
+		}
+	</script>
+</body>
+</html>
